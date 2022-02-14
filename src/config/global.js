@@ -2,8 +2,8 @@ export default {
   global: {
     componenteFormativo: 'Diagnóstico y análisis organizacional.',
     descripcionCurso:
-      'El diagnóstico y análisis organizacional son procesos vitales para una efectiva planeación estratégica que permiten conocer el estado actual de una organización e identificar falencias y oportunidades de mejora, lo que facilita la toma de decisiones y el establecimiento de estrategias que permiten a la organización afrontar los retos que se presentan en un entorno cambiante, competitivo y globalizado. <br/><br/>',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+      'El diagnóstico y análisis organizacional son procesos vitales para una efectiva planeación estratégica que permiten conocer el estado actual de una organización e identificar falencias y oportunidades de mejora, lo que facilita la toma de decisiones y el establecimiento de estrategias que permiten a la organización afrontar los retos que se presentan en un entorno cambiante, competitivo y globalizado. ',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -30,13 +30,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Técnicas de recolección de información',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Herramientas de diagnóstico empresarial',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
         ],
       },
@@ -65,13 +65,13 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Plan de acción ',
+        titulo: 'Plan de acción',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Direccionamiento estratégico.',
+            titulo: 'Direccionamiento estratégico',
             hash: 't_3_1',
           },
           {

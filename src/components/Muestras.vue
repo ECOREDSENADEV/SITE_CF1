@@ -8,9 +8,9 @@ div
   .titulo-principal.color-acento-contenido
     .titulo-principal__numero
       span 1
-    h1 Diagnóstico empresarial 
+    h1 Título principal, 30pt
 
-  p.mb-5 También llamado diagnóstico organizacional es un estudio que permite evaluar la situación de una empresa en un momento dado, partiendo de factores del microentorno y macroentorno que pueden impactar positiva o negativamente en su proceso productivo, siempre es fundamental conocer el contexto organizacional de cualquier empresa a nivel interno y externo, entendiendo estos como las herramientas para conocer su estructura si se desea hacer cambios a cualquier nivel: comercial, corporativo, económicos y tecnológicos que permitan conocer la realidad de la empresa.
+  p.mb-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
 
   //- .titulo-segundo debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
