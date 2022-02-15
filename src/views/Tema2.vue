@@ -1,4 +1,4 @@
-<template lang="pug">
+<<template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -6,12 +6,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1  Análisis organizacional
-
-    Card2(
-      :img="require('@/assets/curso/tema2-img1.png')"
-      text="Es un procedimiento que ayuda a entender mejor el desempeño de una organización basado en información recolectada con las técnicas de diagnóstico. La metodología del análisis organizacional permite formular estrategias que convertidas en un plan de trabajo ayudan a la empresa a lograr sus objetivos."
-    )
+      h1 Análisis organizacionalDiagnóstico empresarial
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          h2.mb-0 
+          img(src='@/assets/curso/tema1-img1.svg', alt='Texto que describa la imagen') 
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p Es un procedimiento que ayuda a entender mejor el desempeño de una organización basado en información recolectada con las técnicas de diagnóstico. La metodología del análisis organizacional permite formular estrategias que convertidas en un plan de trabajo ayudan a la empresa a lograr sus objetivos.
+              br
+              br
 
     p.mb-5
       strong En la figura que sigue se representa el proceso de análisis estratégico.

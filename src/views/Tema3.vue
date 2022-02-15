@@ -1,17 +1,22 @@
-<template lang="pug">
+<<template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1  Plan de acción
-
-    Card2(
-      :img="require('@/assets/curso/tema3-img1.svg')"
-      text="Elaborar un plan de acción es un procedimiento importante para organizar la implementación de una estrategia que determinará qué, quién, cuándo y con qué costo necesita hacerse cada actividad. El mismo debe ser organizado teniendo en cuenta los objetivos estratégicos, resultados, y productos a ser logrados; además, deberá incluir un plan de financiamiento, un presupuesto y un proceso de monitoreo y evaluación."
-    )
+        span 3 
+      h1 Plan de Acción
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          h2.mb-0 
+          img(src='@/assets/curso/tema3-img1.svg', alt='Texto que describa la imagen') 
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p Elaborar un plan de acción es un procedimiento importante para organizar la implementación de una estrategia que determinará qué, quién, cuándo y con qué costo necesita hacerse cada actividad. El mismo debe ser organizado teniendo en cuenta los objetivos estratégicos, resultados, y productos a ser logrados; además, deberá incluir un plan de financiamiento, un presupuesto y un proceso de monitoreo y evaluación.
+              br
+              br
 
     p.mb-5
       strong Los pasos que se debe seguir para elaborar un plan de acción son los siguientes:

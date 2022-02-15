@@ -20,10 +20,7 @@
               br
               | Stan
 
-    Card2(
-      :img="require('@/assets/curso/tema1-img1.svg')"
-      text="También llamado diagnóstico organizacional es un estudio que permite evaluar la situación de una empresa en un momento dado, partiendo de factores del microentorno y macroentorno que pueden impactar positiva o negativamente en su proceso productivo, siempre es fundamental conocer el contexto organizacional de cualquier empresa a nivel interno y externo, entendiendo estos como las herramientas para conocer su estructura si se desea hacer cambios a cualquier nivel: comercial, corporativo, económicos y tecnológicos que permitan conocer la realidad de la empresa."
-    )
+    
 
     p.mb-5
       strong Según lo expuesto, se puede observar en el siguiente video cómo realizar un diagnóstico organizacional en la empresa.
